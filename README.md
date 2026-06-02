@@ -51,24 +51,31 @@ To execute this notebook locally, ensure you have Python 3.x installed along wit
 
 1. **Clone this repository:**
    ```bash
-
+   git clone [https://github.com/hemalathac15/diabetes-risk-prediction-using-ml.git](https://github.com/hemalathac15/diabetes-risk-prediction-using-ml.git)
+   cd diabetes-risk-prediction-using-ml
+   
 2. **Set up a Virtual Environment (Recommended):**
 
 Bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-Install Dependencies:
+
+3. **Install Dependencies:** 
 
 Bash
 pip install numpy pandas matplotlib scikit-learn jupyter
 🚀 How to Run
 Place your dataset file named exactly as diabetes.csv into the root directory of the project.
 
-Launch the Jupyter Notebook environment terminal:
+
+How to run?
+1. Place your dataset file named exactly as diabetes.csv into the root directory of the project.
+
+2. Launch the Jupyter Notebook environment terminal:
 
 Bash
 jupyter notebook
-Open Diabetes Risk Prediction Using Machine Learning.ipynb and run the notebook cells sequentially to observe data transformations, training steps, and results.
+3. Open Diabetes Risk Prediction Using Machine Learning.ipynb and run the notebook cells sequentially to observe data transformations, training steps, and results.
 
 📈 Model Evaluation
 The predictive performance evaluated on the isolated validation test set yielded the following results:
@@ -94,7 +101,3 @@ Plaintext
     accuracy                           0.70       154
    macro avg       0.67      0.65      0.66       154
 weighted avg       0.69      0.70      0.70       154
-📄 License
-This repository is distributed under the MIT License. See LICENSE for more details.
-   git clone [https://github.com/YOUR_USERNAME/diabetes-risk-prediction.git](https://github.com/YOUR_USERNAME/diabetes-risk-prediction.git)
-   cd diabetes-risk-prediction
